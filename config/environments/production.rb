@@ -11,7 +11,7 @@ Rails.application.configure do
   config.eager_load = true
   config.action_mailer.delivery_method =:smtp
   config.action_mailer.default_url_options = {
-    :host => 'https://kartik-photo-app.herokuapp.com',
+    :host => 'kartik-photo-app.herokuapp.com',
     :protocol => 'https'
   }
 
